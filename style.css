@@ -10,7 +10,7 @@ body {
 
   font-family: Arial, Helvetica, sans-serif;
   background: #f7f7f7;
-  
+
   display: grid;
   justify-items: center;
   gap: 6rem;
@@ -18,7 +18,7 @@ body {
 
 img {
   max-width: 100%;
-  
+
   display: block;
 }
 
@@ -48,7 +48,7 @@ p {
 .menu a {
   padding: 1.5rem 3rem;
   border-radius: 0.4rem;
-  
+
   background: #fff;
 
   color: #000;
@@ -62,7 +62,7 @@ p {
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
- 
+
   max-width: 100rem;
 }
 
@@ -81,9 +81,9 @@ p {
 
 .intro {
   background: #fff;
- 
+
   padding: 4rem;
-  
+
   text-align: right;
 
   display: grid;
@@ -110,18 +110,18 @@ p {
   font-size: 6.4rem;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
-  
+
   text-align: right;
   align-self: center;
-  
+
   padding: 4rem;
- 
+
   background: url(./img/onda.svg);
 }
 
 .vantagens {
   padding: 4rem;
-  
+
   background: #fff;
 }
 
@@ -140,9 +140,9 @@ p {
 .rodape {
   width: 100%;
   box-sizing: border-box;
-  
+
   padding: 4rem;
-  
+
   background: #fff;
   text-align: center;
 }
