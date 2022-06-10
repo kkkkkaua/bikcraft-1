@@ -55,6 +55,14 @@ p {
   text-transform: uppercase;
 }
 
+.menu li {
+  list-style: none;
+
+  display: flex;
+
+  gap: 1.2rem;
+}
+
 .menu a:hover {
   border: 1px solid red;
 }
@@ -125,6 +133,14 @@ p {
   background: #fff;
 }
 
+.vantagens-item:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.vantagens h3 {
+  padding-top: 0.5rem;
+}
+
 .vantagens-item {
   display: grid;
   gap: 1rem 2rem;
@@ -135,6 +151,7 @@ p {
 
 .vantagens-item p {
   grid-column: 2;
+  padding-bottom: 1rem;
 }
 
 .rodape {
