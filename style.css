@@ -5,17 +5,20 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background: #f7f7f7;
-  display: grid;
-  gap: 6rem;
-  justify-items: center;
   margin-top: 6rem;
+
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f7f7;
+  
+  display: grid;
+  justify-items: center;
+  gap: 6rem;
 }
 
 img {
   max-width: 100%;
+  
   display: block;
 }
 
@@ -37,30 +40,40 @@ p {
 
 .menu {
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .menu a {
-  background: #fff;
   padding: 1.5rem 3rem;
   border-radius: 0.4rem;
+  
+  background: #fff;
+
   color: #000;
   text-transform: uppercase;
+}
+
+.menu a:hover {
+  border: 1px solid red;
 }
 
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
+ 
   max-width: 100rem;
 }
 
 .conteudo h1::before {
   content: '';
+
   width: 6rem;
   height: 0.4rem;
+
   background: #e21;
+
   position: absolute;
   top: 3rem;
   right: -3rem;
@@ -68,41 +81,55 @@ p {
 
 .intro {
   background: #fff;
+ 
   padding: 4rem;
+  
   text-align: right;
-  position: relative;
+
   display: grid;
-  align-content: center;
+  position: relative;
   gap: 2rem;
+  align-content: center;
   justify-items: end;
 }
 
 .intro :nth-child(3) {
   background: #e21;
   color: #fff;
-  padding: 1.5rem 3rem;
   border-radius: 0.4rem;
+
+  padding: 1.5rem 3rem;
   text-transform: uppercase;
+}
+
+.intro :nth-child(3):hover {
+  background: #900;
 }
 
 .sub-titulo {
   font-size: 6.4rem;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
+  
   text-align: right;
-  padding: 4rem;
   align-self: center;
+  
+  padding: 4rem;
+ 
+  background: url(./img/onda.svg);
 }
 
 .vantagens {
-  background: #fff;
   padding: 4rem;
+  
+  background: #fff;
 }
 
 .vantagens-item {
   display: grid;
-  grid-template-columns: auto 1fr;
   gap: 1rem 2rem;
+  grid-template-columns: auto 1fr;
+
   padding: 2rem;
 }
 
@@ -111,9 +138,11 @@ p {
 }
 
 .rodape {
-  background: #fff;
   width: 100%;
-  text-align: center;
-  padding: 4rem;
   box-sizing: border-box;
+  
+  padding: 4rem;
+  
+  background: #fff;
+  text-align: center;
 }
